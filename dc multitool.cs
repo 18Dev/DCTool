@@ -20,11 +20,12 @@ namespace dctool
             Banner();
             Menu();
 
-            ConsoleKeyInfo imnput = Console.ReadKey();
+            ConsoleKeyInfo input = Console.ReadKey();
             char option = input.char;
             Console.writeline(option);
             switch (option)
             {
+                    
                 case '1':
                     webhookMessage();
                     break;
@@ -76,4 +77,5 @@ namespace dctool
             }
         }
     }   
+
 }
