@@ -55,8 +55,8 @@ namespace dctool
         static void Menu()
         {
             Console.writeline("\n1. Send Webhook Message");
-            Console.writeline("2. Veiw Guild Info");
-            Console.writeline("3. Check Member Status");
+            Console.writeline("2. Veiw Guild Info");// not on
+            Console.writeline("3. Check Member Status");// not on
             Console.writeline("4. Exit");
         }
 
@@ -79,3 +79,4 @@ namespace dctool
     }   
 
 }
+
